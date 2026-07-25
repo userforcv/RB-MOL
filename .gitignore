@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.ckpt
+*.onnx
+logs/
+output/
+tmp/
+data/
+pretrained/*.pth
