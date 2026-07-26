@@ -14,15 +14,6 @@ and prototype-based occluded representation learning.
 - `processor/processor.py`: RB-MOL training logic.
 - `configs/rbmol/occ_duke_rbmol.yml`: final Occluded-Duke RB-MOL configuration.
 
-## Installation
-
-```bash
-conda create -n rbmol python=3.10 -y
-conda activate rbmol
-pip install -r requirements.txt
-```
-
-Install the PyTorch version that matches your CUDA environment if needed.
 
 ## Data
 
@@ -40,9 +31,6 @@ data/
 
 Place the ImageNet-pretrained ViT-B/16 weight at:
 
-```text
-pretrained/jx_vit_base_p16_224-80ecf9dd.pth
-```
 
 You may also change `MODEL.PRETRAIN_PATH` in the YAML config.
 
