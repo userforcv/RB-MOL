@@ -1,8 +1,0 @@
-torch
-torchvision
-timm
-yacs
-numpy
-Pillow
-opencv-python
-
